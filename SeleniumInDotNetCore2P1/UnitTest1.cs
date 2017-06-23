@@ -13,7 +13,7 @@ namespace SeleniumInDotNetCore2P1
         {
             var capabilities = DesiredCapabilities.InternetExplorer();
 
-            var driver = new OpenQA.Selenium.Chrome.ChromeDriver(@"C:\Users\rschi\Source\Repos\ConsoleApp1\ConsoleApp1");
+            var driver = new OpenQA.Selenium.Chrome.ChromeDriver(@".\");
 
             driver.Navigate().GoToUrl("http://www.google.com/ncr");
 
